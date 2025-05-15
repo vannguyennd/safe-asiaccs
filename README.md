@@ -10,7 +10,7 @@ We use tree-sitter to obtain Abstract Syntax Trees (ASTs) and Data Flow Graphs (
 The *dataset* folder contains source code samples (of the Devign dataset) used in the training, validation, and testing (inference) phases. The *studentS* folder houses the pre-trained model of our SAFE approach when using RoBERTa as the backbone for the Student-S model with ASTs for the Teacher-B model. The *teachersAB* folder contains pre-trained models of the teacherA and teacherB models. Please download these folders including all of their files at (https://drive.google.com/drive/folders/1TJpm5iF2BnDdkrkBfEReJSDtbNAjS8SG?usp=sharing)
 
 ## Running SAFE (the training, validation, and testing processes)
-To train our SAFE approach, including the training, validation, and testing processes, run the *w_run_win_studentS.sh* file. This script allows you to easily set the values for the hyperparameters to train the model. Particularly, in your terminal, execute the following command: *bash w_run_win_studentS.sh*.
+To train our SAFE approach, including the training, validation, and testing processes, run the *w_run_studentS.sh* file. This script allows you to easily set the values for the hyperparameters to train the model. Particularly, in your terminal, execute the following command: *bash w_run_studentS.sh*.
 
 ```python
 #!/bin/bash
